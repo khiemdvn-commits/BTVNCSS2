@@ -1,0 +1,63 @@
+body {
+    font-family: Times, sans-serif; /* phông chữ */
+    font-size: 16px;                 /* kích thước chữ */
+}
+header {
+    background-color: #1E3A8A;/* màu nền */
+}
+/* nav {
+    background-color: rgb(232, 179, 55);
+} */
+nav {
+    background-color: rgb(232, 179, 55);
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+main {
+    background-color: rgb(186, 186, 240);
+    font-size: 14px;
+}
+footer {
+    background-color: rgb(222, 222, 249);
+}
+ /* li {
+    display: inline-block;    hiển thị
+    width: 150px;  chiều rộng
+}  */
+h1 {
+    text-align: center;   /*căn chỉnh văn bản*/
+    font-family: Georgia, serif;  /* phông chữ */
+    color: #90d671;
+}
+p {
+    height: 50px;
+}
+
+/* Grid: bố cục hai cột */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+
+/* Chỉ ảnh bên trong grid */
+.grid img {
+    width: 100%;
+}
+
+/* Flexbox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* flex-wrap: wrap	Cho phép xuống hàng
+justify-content: space-around	Chia khoảng trống xung quanh phần tử */
